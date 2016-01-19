@@ -1,6 +1,6 @@
 {
   "name": "knockout-extensions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Collection of generally useful bindings, extenders and other utilities for Knockout.js",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "coffee-script": "1.10.x"
   },
   "peerDependencies": {
-    "knockout": "3.x"
+    "knockout": "3.x",
+    "bluebird": "3.1.x"
   }
 }

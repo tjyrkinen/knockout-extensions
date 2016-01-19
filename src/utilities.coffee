@@ -1,4 +1,5 @@
 ko = require 'knockout'
+bluebird = require 'bluebird'
 
 ko.asyncComputed = (fn, defaultValue) ->
   value = ko.observable defaultValue
