@@ -1,0 +1,15 @@
+{
+  "name": "knockout-bindings",
+  "version": "0.1.0",
+  "description": "Collection of generally useful bindings for Knockout.js",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "knockout",
+    "binding"
+  ],
+  "author": "Toni Jyrkinen <tjyrkinen@gmail.com>",
+  "license": "MIT"
+}
