@@ -4,6 +4,7 @@
   "description": "Collection of generally useful bindings, extenders and other utilities for Knockout.js",
   "main": "index.js",
   "scripts": {
+    "postinstall": "coffee -o lib -c src/* && coffee -c index.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,6 +13,9 @@
   ],
   "author": "Toni Jyrkinen <tjyrkinen@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "coffee-script": "1.10.x"
+  },
   "peerDependencies": {
     "knockout": "3.x"
   }
