@@ -1,6 +1,6 @@
 {
   "name": "knockout-extensions",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Collection of generally useful bindings, extenders and other utilities for Knockout.js",
   "main": "index.js",
   "scripts": {
