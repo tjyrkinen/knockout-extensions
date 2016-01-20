@@ -14,7 +14,8 @@
   "author": "Toni Jyrkinen <tjyrkinen@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "coffee-script": "1.10.x"
+    "coffee-script": "1.10.x",
+    "moment": "^2.11.1"
   },
   "peerDependencies": {
     "knockout": "3.x",
