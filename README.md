@@ -21,4 +21,4 @@ observable.extend({moment: {dateParts: true}})
 ```
 
 ## About dependencies
-Knockout.js is an obvious peer dependency. Some utils use promises and for this the bluebird module required. Not all files require bluebird though so it is left optional by including it as a peer dependency as well.
+All dependencies (apart for coffee-script which is used for build step only) are listed as peer dependencies. This is to avoid bloat and it's reasonable to assume if you're going to use these extensions you'll also use their dependencies elsewhere in your project.
