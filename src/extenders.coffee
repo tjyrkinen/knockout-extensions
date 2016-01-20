@@ -1,5 +1,6 @@
-ko = require 'knockout'
+ko     = require 'knockout'
 moment = require 'moment'
+_      = require 'lodash'
 
 ko.extenders.moment = (obs, options) ->
   obs.moment = ko.computed
